@@ -2,7 +2,7 @@
   "name": "node-server",
   "version": "1.0.0",
   "description": "Simple node js application using express ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },

@@ -69,7 +69,11 @@ app.use("/graphql", graphqlHTTP({
   })
 );
 
-app.get("/rest/getAllUsers", (req, res) => {
+app.get('/', (_, res) => {
+    res.send('Vanakam da Mapala!')
+  })
+
+app.get("/rest/getAllUsers", (_, res) => {
     res.send(userData)
    });
 
