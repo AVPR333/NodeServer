@@ -33,7 +33,6 @@ build/
 /coverage/lcov-report/
 
 # npm package-lock files
-package-lock.json
 yarn.lock
 
 # TypeScript build output (if using TypeScript)
