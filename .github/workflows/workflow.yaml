@@ -46,7 +46,7 @@ jobs:
         cache: 'npm'
 
     - name: npm install, build, and test
-      run: npm run install
+      run: npm install
 
     - name: Deploy to Azure webapp
       uses: azure/webapps-deploy@v2
