@@ -2,9 +2,9 @@
   "name": "node-server",
   "version": "1.0.0",
   "description": "Simple node js application using express ",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Sathishkumar Raja",
   "license": "ISC",
